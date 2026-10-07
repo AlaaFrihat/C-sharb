@@ -32,7 +32,11 @@ namespace school_system
             Console.WriteLine("students:1 " + students[0]);
             Console.WriteLine("students:3 " + students[2]);
             students[0] = "jana";
-            Console.WriteLine("students After:"+ students[0]);
+            Console.WriteLine("students 1 After:"+ students[0]);
+            Console.WriteLine("students 2 After:" + students[1]);
+            Console.WriteLine("students 3 After:" + students[2]);
+
+
 
 
 
