@@ -11,48 +11,48 @@ namespace day3
         static void Main(string[] args)
 
         {
-           /// Random num = new Random();
-           // int numTarget=num.Next(50,76);
-           // int userGuess = 0;
-           // int attempts = 0;
+            //Random num = new Random();
+            //int numTarget = num.Next(50, 76);
+            //int userGuess = 0;
+            //int attempts = 0;
 
-           // Console.WriteLine("===== Guessing Game =====");
+            //Console.WriteLine("===== Guessing Game =====");
 
-           // while (userGuess != numTarget)
-           // {
-           //     Console.WriteLine("Guess a number between 50 and 75:");
-           //     userGuess = Convert.ToInt32(Console.ReadLine());
+            //while (userGuess != numTarget)
+            //{
+            //    Console.WriteLine("Guess a number between 50 and 75:");
+            //    userGuess = Convert.ToInt32(Console.ReadLine());
 
-           //     attempts++;
-           //     if (userGuess < numTarget)
-           //     {
-           //         Console.WriteLine("Hint:Try a higher number");
-           //     }
-           //     else if (userGuess > numTarget)
-           //     {
-           //         Console.WriteLine("Hint: Try a lower number");
-           //     }
-           // }
-           // int points = 0;
-           // if (attempts == 1)
-           // {
-           //     points = 10;
-           // }
-           // else if (attempts == 2)
-           // {
-           //     points = 7;
-           // }
-           // else if (attempts == 3)
-           // {
-           //     points = 5;
-           // }
-           // else
-           // {
-           //     points = 0;
-           // }
-           // //Console.WriteLine("Congratulations!");
-           // //Console.WriteLine("Your attempts: " + attempts);
-           //// Console.WriteLine("Your points :" + points);
+            //    attempts++;
+            //    if (userGuess < numTarget)
+            //    {
+            //        Console.WriteLine("Hint:Try a higher number");
+            //    }
+            //    else if (userGuess > numTarget)
+            //    {
+            //        Console.WriteLine("Hint: Try a lower number");
+            //    }
+            //}
+            //int points = 0;
+            //if (attempts == 1)
+            //{
+            //    points = 10;
+            //}
+            //else if (attempts == 2)
+            //{
+            //    points = 7;
+            //}
+            //else if (attempts == 3)
+            //{
+            //    points = 5;
+            //}
+            //else
+            //{
+            //    points = 0;
+            //}
+            //Console.WriteLine("Congratulations!");
+            //Console.WriteLine("Your attempts: " + attempts);
+            //Console.WriteLine("Your points :" + points);
 
 
             ///>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>///
@@ -74,14 +74,12 @@ namespace day3
                 switch (choice)
                 {
                     case 1:
-                        // عرض الأسماء
                         Console.WriteLine("\nStudents:");
                         for (int i = 0; i < 5; i++)
                         {
                             Console.WriteLine(studnt[i]);
                         }
 
-                        // عرض العلامات
                         Console.WriteLine("\nStudentgrades:");
                         foreach (int g in Studentgrades) 
                         {
@@ -98,7 +96,7 @@ namespace day3
 
                         while (index < 5)
                         {
-                            if (studnt[index] == name) // مقارنة بسيطة ومباشرة
+                            if (studnt[index] == name) 
                             {
                                 Console.WriteLine("Student Found!");
                                 isFound = true;
@@ -117,7 +115,7 @@ namespace day3
                         Console.Write("\nEnter grade: ");
                         int mark = Convert.ToInt32(Console.ReadLine());
 
-                        // شروط سريعة ومباشرة
+                       
                         if (mark >= 90)
                             Console.WriteLine("Excellent");
                         else if (mark >= 80)
